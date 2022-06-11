@@ -1,0 +1,15 @@
+git clone (url) : copy code from origin to local file
+git status : used to check status of local file
+git diff : shows the unstaged changes
+
+steps from local changes to production changes(origin)
+_make changes locally____
+__stage changes using command : [git add (file name)]___
+___commit changes using command : [git commit -m "message"]__
+__submit PR(Pull Request)
+        git push (directly to origin)___
+
+
+git fetch : only fetches changes from the origin (main repo)
+git pull : fetches from origin and then applies changes to local file
+git log : gives you all the updates about who committed to the code
