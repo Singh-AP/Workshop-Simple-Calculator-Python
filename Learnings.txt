@@ -1,3 +1,8 @@
+To learn:
+[CREATE PULL REQUEST USING VIA THE FORK METHOD]
+
+
+
 git clone (url) : copy code from origin to local file
 git status : used to check status of local file
 git diff : shows the unstaged changes
@@ -13,3 +18,14 @@ __submit PR(Pull Request)
 git fetch : only fetches changes from the origin (main repo)
 git pull : fetches from origin and then applies changes to local file
 git log : gives you all the updates about who committed to the code
+
+[git help : for all command formats]
+
+TO MAKE A BRANCH :
+
+git checkout (commit id/branch name):To hop on and off on different commits and branches (switch branches)
+git branch (new branch name) : creating new branch
+git branch -a (to see all branches)
+
+TO PUSH A BRANCH TO ORIGIN:
+git push --set-upstream origin (Branch name)
