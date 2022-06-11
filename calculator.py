@@ -18,8 +18,10 @@ def multiply(x, y):
 
 def divide(x, y):
    """This function divides two numbers"""
-
-   return x / y
+   if y == 0:
+       print ("Not defined")
+   else:
+       return x / y
 
 # take input from the user
 print("Select operation.")
